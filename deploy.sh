@@ -1,5 +1,5 @@
 docker build -t scowil101/multi-client:latest -t scowil101/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t scowil101/multi-server:latest -t scowil/multi-server:$SHA -f ./server/Dockerfle ./server
+docker build -t scowil101/multi-server:latest -t scowil101/multi-server:$SHA -f ./server/Dockerfle ./server
 docker build -t scowil101/muti-worker:latest -t scowil101/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push scowil101/multi-client:latest
 docker push scowil101/multi-server:latest
